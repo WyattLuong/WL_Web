@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Roboto+Slab');
+
+
+body {
+    background-color: red;
+    margin:0;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.navbar-name {
+    float:left;
+    position: absolute;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+.navbar-container{
+    position: absolute;
+    background-color: black;
+    width:100%;
+}
+
+.navbar-container a{
+    /*background-color: aqua; */
+    text-decoration: none;
+    color:white;
+    letter-spacing: 3px;
+}
+
+.links li{ /*removes bullet points*/
+    list-style-type: none;
+    display:inline-block; /* keeps tabs in one line*/
+    margin-top: 1em; /* or rem*/
+    margin-bottom: 1em;
+    margin-right: 2em;
+}
+
+.navbar-links ul{
+    float:right;
+}
+.links a:hover{
+    color:greenyellow;
+}
